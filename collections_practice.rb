@@ -30,5 +30,18 @@ def find_a(array)
   array.find_all {|a| a.start_with?("a")}
 end
 
+def sum_array(array)
+  array.inject(0){|sum,x| sum + x}
+end
+
+def add_s(array)
+  array.collect do |a|
+    if a == array[1]
+  a << "s"
+  else
+a
+end
+end
+end 
 
 
