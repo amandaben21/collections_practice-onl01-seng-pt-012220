@@ -7,7 +7,7 @@ def sort_arry_desc(array)
   array.sort.reverse
 end
 
-def sort_arry_char_count(array)
+def sort_array_char_count(array)
   array.sort_by { |word| word.length }
 end
 
